@@ -82,18 +82,18 @@
   <p class="our-name self-design">Lu <span>&</span> Deng</p>
   <script type="text/javascript">
     //设置起始日期
-    countTime('2017/02/12 00:00', 'day', 'hour', 'minute', 'second');
+    countTime('2022/02/12 00:00', 'day', 'hour', 'minute', 'second');
     var days = parseInt($('#day').text());
     var years = new Date().getFullYear();
     var month = new Date().getMonth() + 1;
     var dateDay = new Date().getDate();
     // 设置标题
-    if (month == 2 && dateDay == 12) {
-      $(document).attr("title", "在一起" + parseInt(years - 2017) + "年,始于初见,终于到老。");
-    } else if (dateDay == 12) {
-      $(document).attr("title", "在一起" + parseInt(days / 30) + "个月,始于初见,终于到老。");
+    if (month == 10 && dateDay == 28) {
+      $(document).attr("title", "Love each other" + parseInt(years - 2017) + "years till we all grow old and die together");
+    } else if (dateDay == 28) {
+      $(document).attr("title", "Love each other for" + parseInt(days / 30) + "months til forever ever");
     } else
-    $(document).attr("title", "在一起" + days + "天,始于初见,终于到老。");
+    $(document).attr("title", "Love each other for" + days + "days till forever");
     document.writeln(
       "<div class=\"snow\" style=\"height:100%; position:fixed; left:0px; top:0px;right:0px; bottom:0px; pointer-events: none;z-index: 9999;\"><canvas width=\"1904\" height=\"913\" style=\"position:absolute;left: 0;top: 0;\"></canvas></div>"
     );
