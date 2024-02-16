@@ -1,15 +1,15 @@
 import os
 from MyQR import myqr
 version, level, qr_name = myqr.run(
-	'https://jackluson.github.io/to-lover-demo/',
-	# 'https://jackluson.github.io/to-lover/',
+	'https://Keyingl.github.io/Vday',
+	# 'https://Keyingl.github.io/Vday/',
     version=1,
     level='H',
-    picture='pic-icon.png',
+    picture='Icon.jpeg',
     colorized=True,
     contrast=1.0,
     brightness=1.0,
-    save_name='ip_jackLu.png',
+    save_name='ip_hliu.png',
     save_dir=os.getcwd()
 )
 print('version',version)
